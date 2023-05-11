@@ -72,7 +72,7 @@ async def loop(ds18b20):
                 #file1.write(msg + "\n")
                 #file1.close()
                 red.on()
-                conn_str = "<connection sting would be here.>"
+                conn_str = "<connection string would be here.>"
                 device_client = IoTHubDeviceClient.create_from_connection_string(conn_str)
                 print("Sending message...")
                 json_message = {
